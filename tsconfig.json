@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "types": ["bun-types"],
+
+    "jsx": "preserve", // really important! allows the use of jsx in macros.
+  }
+}
